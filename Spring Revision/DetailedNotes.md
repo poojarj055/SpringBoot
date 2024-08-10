@@ -1,4 +1,5 @@
-Here’s an in-depth explanation of each point mentioned earlier. These details should give you a strong foundation in the Spring Framework before moving on to Spring Boot.
+Spring Revision Notes:
+
 
 ### 1. **Introduction to the Spring Framework**
    - **Overview**: 
@@ -96,6 +97,9 @@ public class Application {
     }
 }
 ```
+
+**Basic Working of Spring:
+![Screenshot of feature](asset/SpringWorking.png)
 
 
 
