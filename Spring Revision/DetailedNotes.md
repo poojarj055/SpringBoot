@@ -28,7 +28,8 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
        - **Field Injection**: Dependencies are injected directly into the fields of a class using annotations like `@Autowired`. This method is less preferred due to its impact on immutability and difficulty in unit testing.
       
     - *In the traditional approach, the Service class is responsible for creating its Dependency, leading to tight coupling.
-    - *In the IoC approach, the Service class receives its Dependency through injection, typically via a constructor or setter method. The IoC container, like Spring, handles the creation and injection of dependencies, leading to a more loosely coupled and modular design.
+    - *In the IoC approach, the Service class receives its Dependency through injection, typically via a constructor or setter method.
+       The IoC container, like Spring, handles the creation and injection of dependencies, leading to a more loosely coupled and modular design.
   ### **Advantages of IoC and DI**:
       -Loose Coupling: Classes are not tightly bound to their dependencies, making it easier to change or replace them.
       -Testability: Easier to test classes in isolation by injecting mock dependencies.
