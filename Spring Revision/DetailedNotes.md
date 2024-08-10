@@ -10,7 +10,7 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
      - **Simplicity**: Spring aims to make Java development easier and more streamlined by reducing the complexity of enterprise applications.
      - **Modularity**: Spring’s modular architecture allows developers to pick and choose which components they need for their application.
      - **Flexibility**: Spring integrates with various other frameworks and technologies, giving developers the flexibility to use what works best for their project.
-
+       
 ### 2. **Core Concepts**
    - **Inversion of Control (IoC)**: 
      - **Definition**: IoC is a principle where the control of creating objects and managing their lifecycle is transferred from the application code to a framework or container.
@@ -26,6 +26,14 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
        - **Constructor Injection**: Dependencies are injected through the constructor of the class. This is the most recommended type of DI as it allows for immutable dependencies.
        - **Setter Injection**: Dependencies are provided through setter methods. This allows for optional dependencies but can make objects mutable.
        - **Field Injection**: Dependencies are injected directly into the fields of a class using annotations like `@Autowired`. This method is less preferred due to its impact on immutability and difficulty in unit testing.
+      
+     *In the traditional approach, the Service class is responsible for creating its Dependency, leading to tight coupling.
+     *In the IoC approach, the Service class receives its Dependency through injection, typically via a constructor or setter method. The IoC container, like Spring, handles the creation and injection of dependencies, leading to a more loosely coupled and modular design.
+   **Advantages of IoC and DI**:
+      -Loose Coupling: Classes are not tightly bound to their dependencies, making it easier to change or replace them.
+      -Testability: Easier to test classes in isolation by injecting mock dependencies.
+      -Maintainability: Reduces the complexity of the code, making it easier to maintain and extend.
+
 
 ### 3. **Spring Core**
    - **Bean**:
