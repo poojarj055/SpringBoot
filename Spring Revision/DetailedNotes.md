@@ -57,7 +57,7 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
    +--------------------+                          +--------------------+
 ```
 ###**Without DI**:
-```
+```java
 public class Service {
     private Dependency dependency;
 
@@ -72,7 +72,7 @@ public class Service {
 }
 ```
 ###**With DI(using IOC)**:
-```
+```java
 public class Service {
     private Dependency dependency;
 
