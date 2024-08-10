@@ -1,4 +1,4 @@
-Absolutely! Here’s an in-depth explanation of each point mentioned earlier. These details should give you a strong foundation in the Spring Framework before moving on to Spring Boot.
+Here’s an in-depth explanation of each point mentioned earlier. These details should give you a strong foundation in the Spring Framework before moving on to Spring Boot.
 
 ### 1. **Introduction to the Spring Framework**
    - **Overview**: 
