@@ -36,7 +36,7 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
       -Loose Coupling: Classes are not tightly bound to their dependencies, making it easier to change or replace them.
       -Testability: Easier to test classes in isolation by injecting mock dependencies.
       -Maintainability: Reduces the complexity of the code, making it easier to maintain and extend.
-
+```
    +--------------------+                          +--------------------+
    |  Traditional Flow   |                          |   IoC with DI      |
    +--------------------+                          +--------------------+
@@ -55,7 +55,7 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
    +--------------------+                          +--------------------+
    |  Main/Application   |                          |  Main/Application  |
    +--------------------+                          +--------------------+
-
+```
 
 
 
