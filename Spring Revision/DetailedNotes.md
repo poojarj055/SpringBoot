@@ -100,6 +100,13 @@ public class Application {
 
 **Basic Working of Spring:
 ![Screenshot of feature](asset/SpringWorking.png)
+**Create POJO class
+![Screenshot of feature](asset/PojoClass.png)
+**Create config file
+![Screenshot of feature](asset/ConfigXml.png)
+**Create Spring container for access bean objects
+![Screenshot of feature](asset/ApplicationContext.png)
+
 
 
 
