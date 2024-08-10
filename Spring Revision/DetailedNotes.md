@@ -56,6 +56,46 @@ Here’s an in-depth explanation of each point mentioned earlier. These details 
    |  Main/Application   |                          |  Main/Application  |
    +--------------------+                          +--------------------+
 ```
+###**Without DI**:
+```
+public class Service {
+    private Dependency dependency;
+
+    public Service() {
+        // Directly creating the dependency
+        this.dependency = new Dependency();
+    }
+
+    public void performAction() {
+        dependency.action();
+    }
+}
+```
+###**With DI(using IOC)**:
+```
+public class Service {
+    private Dependency dependency;
+
+    // Dependency is injected via the constructor
+    public Service(Dependency dependency) {
+        this.dependency = dependency;
+    }
+
+    public void performAction() {
+        dependency.action();
+    }
+}
+
+// In an IoC Container (like Spring)
+@Service
+public class Application {
+    public static void main(String[] args) {
+        // Spring will inject the dependency automatically
+        Service service = context.getBean(Service.class);
+        service.performAction();
+    }
+}
+```
 
 
 
